@@ -4,6 +4,7 @@
       <mapping pattern="Dockerbuild" type="Dockerfile" />
       <mapping pattern="Dockerfile-develop" type="Dockerfile" />
       <mapping pattern="clean" type="PLAIN_TEXT" />
+      <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="paw" type="PLAIN_TEXT" />
       <mapping ext="tfstate" type="PLAIN_TEXT" />
