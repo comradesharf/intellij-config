@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="onn" value="Objects.requireNonNull($variable$, &quot;'$variable$' is required&quot;);" description="Objects not null" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
