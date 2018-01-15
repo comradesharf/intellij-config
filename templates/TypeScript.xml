@@ -1,5 +1,5 @@
 <templateSet group="TypeScript">
-  <template name="ract" value="export const $action0$ = &quot;$action2$.$action3$&quot;;&#10;&#10;export const $action1$ = () =&gt; {&#10;    return {&#10;        type: $action0$,&#10;    };&#10;};&#10;&#10;interface $action4$Action {&#10;    type: typeof $action0$;&#10;}" description="Redux action template" toReformat="true" toShortenFQNames="true">
+  <template name="ract" value="export const $action0$ = &quot;$action2$.$action3$&quot;;&#10;&#10;export const $action1$ = (): $action4$Action =&gt; {&#10;    return {&#10;        type: $action0$,&#10;    };&#10;};&#10;&#10;interface $action4$Action {&#10;    type: typeof $action0$;&#10;}" description="Redux action template" toReformat="true" toShortenFQNames="true">
     <variable name="action2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="action3" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="action0" expression="capitalizeAndUnderscore(action3)" defaultValue="" alwaysStopAt="false" />
