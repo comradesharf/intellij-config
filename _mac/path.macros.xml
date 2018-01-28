@@ -1,6 +1,6 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home" />
+    <macro name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home" />
     <macro name="KOTLIN_BUNDLED" value="/Users/xuwam/Library/Application Support/IntelliJIdea2017.3/Kotlin/kotlinc" />
     <macro name="MAVEN_REPOSITORY" value="/Users/xuwam/.m2/repository" />
   </component>
